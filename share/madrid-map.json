@@ -4,15 +4,15 @@
     {
         "line":
         [
-            { "id": "L3", "name": "L3" },
-            { "id": "L5", "name": "L5" }
+            { "id": "L3", "name": "L3", "color": "red"   },
+            { "id": "L5", "name": "L5", "color": "green" }
         ]
     },
     "stations":
     {
         "station":
         [
-            { "id": "CALLAO", "name": "Callao", "line": "L3:14,L5:16", "link": "L5-15,L5-17,L3-13,L3-15" },
+            { "id": "CALLAO", "name": "Callao", "line": "L3:14,L5:17", "link": "L5-16,L5-18,L3-13,L3-15" },
 
             { "id": "L3-01", "name": "Villaverde Alto",        "line": "L3:1",  "link": "L3-02"        },
             { "id": "L3-02", "name": "San Cristóbal",          "line": "L3:2",  "link": "L3-01,L3-03"  },
@@ -46,21 +46,23 @@
             { "id": "L5-12", "name": "Núñez de Balboa",        "line": "L5:12", "link": "L5-11,L5-13"  },
             { "id": "L5-13", "name": "Rubén Darío",            "line": "L5:13", "link": "L5-12,L5-14"  },
             { "id": "L5-14", "name": "Alonso Martínez",        "line": "L5:14", "link": "L5-13,L5-15"  },
-            { "id": "L5-15", "name": "Chueca Gran Vía",        "line": "L5:15", "link": "L5-14,CALLAO" },
-            { "id": "L5-17", "name": "Ópera La Latina",        "line": "L5:17", "link": "CALLAO,L5-18" },
-            { "id": "L5-18", "name": "Puerta de Toledo",       "line": "L5:18", "link": "L5-17,L5-19"  },
-            { "id": "L5-19", "name": "Acacias",                "line": "L5:19", "link": "L5-18,L5-20"  },
-            { "id": "L5-20", "name": "Pirámides",              "line": "L5:20", "link": "L5-19,L5-21"  },
-            { "id": "L5-21", "name": "Marqués de Vadillo",     "line": "L5:21", "link": "L5-20,L5-22"  },
-            { "id": "L5-22", "name": "Urgel",                  "line": "L5:22", "link": "L5-21,L5-23"  },
-            { "id": "L5-23", "name": "Oporto",                 "line": "L5:23", "link": "L5-22,L5-24"  },
-            { "id": "L5-24", "name": "Vista Alegre",           "line": "L5:24", "link": "L5-23,L5-25"  },
-            { "id": "L5-25", "name": "Carabanchel",            "line": "L5:25", "link": "L5-24,L5-26"  },
-            { "id": "L5-26", "name": "Eugenia de Montijo",     "line": "L5:26", "link": "L5-25,L5-27"  },
-            { "id": "L5-27", "name": "Aluche",                 "line": "L5:27", "link": "L5-26,L5-28"  },
-            { "id": "L5-28", "name": "Empalme",                "line": "L5:28", "link": "L5-27,L5-29"  },
-            { "id": "L5-29", "name": "Campamento",             "line": "L5:29", "link": "L5-28,L5-30"  },
-            { "id": "L5-30", "name": "Casa de Campo",          "line": "L5:30", "link": "L5-29"        }
+            { "id": "L5-15", "name": "Chueca",                 "line": "L5:15", "link": "L5-14,L5-16"  },
+            { "id": "L5-16", "name": "Gran Vía",               "line": "L5:16", "link": "L5-15,CALLAO" },
+            { "id": "L5-18", "name": "Ópera",                  "line": "L5:18", "link": "CALLAO,L5-19" },
+            { "id": "L5-19", "name": "La Latina",              "line": "L5:19", "link": "L5-18,L5-20"  },
+            { "id": "L5-20", "name": "Puerta de Toledo",       "line": "L5:20", "link": "L5-19,L5-21"  },
+            { "id": "L5-21", "name": "Acacias",                "line": "L5:21", "link": "L5-20,L5-22"  },
+            { "id": "L5-22", "name": "Pirámides",              "line": "L5:22", "link": "L5-21,L5-23"  },
+            { "id": "L5-23", "name": "Marqués de Vadillo",     "line": "L5:23", "link": "L5-22,L5-24"  },
+            { "id": "L5-24", "name": "Urgel",                  "line": "L5:24", "link": "L5-23,L5-25"  },
+            { "id": "L5-25", "name": "Oporto",                 "line": "L5:25", "link": "L5-24,L5-26"  },
+            { "id": "L5-26", "name": "Vista Alegre",           "line": "L5:26", "link": "L5-25,L5-27"  },
+            { "id": "L5-27", "name": "Carabanchel",            "line": "L5:27", "link": "L5-26,L5-28"  },
+            { "id": "L5-28", "name": "Eugenia de Montijo",     "line": "L5:28", "link": "L5-27,L5-29"  },
+            { "id": "L5-29", "name": "Aluche",                 "line": "L5:29", "link": "L5-28,L5-30"  },
+            { "id": "L5-30", "name": "Empalme",                "line": "L5:30", "link": "L5-29,L5-31"  },
+            { "id": "L5-31", "name": "Campamento",             "line": "L5:31", "link": "L5-30,L5-32"  },
+            { "id": "L5-32", "name": "Casa de Campo",          "line": "L5:32", "link": "L5-31"        }
         ]
     }
 }

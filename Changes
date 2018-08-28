@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Madrid
 
+0.15  2018-08-28
+      - Added link to the Line L1 specification page.
+
 0.14  2018-08-16
       - Updated dependency on Map::Tube v3.55.
 

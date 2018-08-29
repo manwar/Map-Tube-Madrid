@@ -1,5 +1,9 @@
 Revision history for Map::Tube::Madrid
 
+0.16  2018-08-29
+      - Added map source data for line L11.
+      - Updated map image to show line L11.
+
 0.15  2018-08-28
       - Added link to the Line L1 specification page.
 

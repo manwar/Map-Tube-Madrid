@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Madrid
 
+0.22  2018-09-22
+      - Added map route test.
+
 0.21  2018-09-20
       - Added more load test.
 

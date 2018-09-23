@@ -13,7 +13,7 @@ use Map::Tube::Madrid;
 my $map = new_ok('Map::Tube::Madrid');
 
 SKIP: {
-    ok_map($map) or skip "Skip map function and routes test.", 1;
+    ok_map($map) or skip "Skip map function and routes test.", 2;
     ok_map_functions($map);
 
     my @routes = <DATA>;

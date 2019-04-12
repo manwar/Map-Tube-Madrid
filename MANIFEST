@@ -3,6 +3,7 @@ lib/Map/Tube/Madrid.pm
 lib/Map/Tube/Madrid/Line/L1.pm
 lib/Map/Tube/Madrid/Line/L2.pm
 lib/Map/Tube/Madrid/Line/L3.pm
+lib/Map/Tube/Madrid/Line/L4.pm
 lib/Map/Tube/Madrid/Line/L5.pm
 lib/Map/Tube/Madrid/Line/L11.pm
 share/madrid-map.json

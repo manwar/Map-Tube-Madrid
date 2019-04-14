@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Madrid
 
+0.34  2019-04-14
+      - Added test for different routes.
+
 0.33  2019-04-13
       - Updated Madrid map.
       - Updated linked line maps.

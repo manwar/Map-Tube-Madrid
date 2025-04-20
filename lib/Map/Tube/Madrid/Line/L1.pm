@@ -1,6 +1,6 @@
 package Map::Tube::Madrid::Line::L1;
 
-$Map::Tube::Madrid::Line::L1::VERSION   = '0.41';
+$Map::Tube::Madrid::Line::L1::VERSION   = '0.42';
 $Map::Tube::Madrid::Line::L1::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Madrid::Line::L1 - Madrid Metro Map: L1 Line.
 
 =head1 VERSION
 
-Version 0.41
+Version 0.42
 
 =encoding utf8
 

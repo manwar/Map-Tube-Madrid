@@ -1,5 +1,8 @@
 Revision history for Map::Tube::Madrid
 
+0.42  2025-04-20
+      - Removed broken link to source map.
+
 0.41  2025-04-20
       - Re-structured map data link.
 

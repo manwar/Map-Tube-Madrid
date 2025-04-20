@@ -1,5 +1,10 @@
 Revision history for Map::Tube::Madrid
 
+0.40  2025-04-20
+      - Fixed map data as reported by new test framework.
+      - Updated dependency on Map::Tube v4.07.
+      - Updated copyright year information.
+
 0.39  2019-09-02
       - Moved author test scripts to xt/ subfolder.
 

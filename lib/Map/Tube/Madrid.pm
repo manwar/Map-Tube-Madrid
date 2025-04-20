@@ -1,6 +1,6 @@
 package Map::Tube::Madrid;
 
-$Map::Tube::Madrid::VERSION   = '0.40';
+$Map::Tube::Madrid::VERSION   = '0.41';
 $Map::Tube::Madrid::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Map::Tube::Madrid - Interface to the Madrid Metro Map.
 
 =head1 VERSION
 
-Version 0.40
+Version 0.41
 
 =cut
 
@@ -65,7 +65,7 @@ It currently only covers the following metro lines.
 
 =back
 
-=head2 MAP DATA
+=head1 MAP DATA
 
 The map data collected from L<this website|https://en.wikipedia.org/wiki/Madrid_Metro>.
 

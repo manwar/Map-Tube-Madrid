@@ -1,6 +1,6 @@
 package Map::Tube::Madrid::Line::L5;
 
-$Map::Tube::Madrid::Line::L5::VERSION   = '0.40';
+$Map::Tube::Madrid::Line::L5::VERSION   = '0.41';
 $Map::Tube::Madrid::Line::L5::AUTHORITY = 'cpan:MANWAR';
 
 use 5.006;
@@ -12,7 +12,7 @@ Map::Tube::Madrid::Line::L5 - Madrid Metro Map: L5 Line.
 
 =head1 VERSION
 
-Version 0.40
+Version 0.41
 
 =encoding utf8
 
@@ -86,7 +86,7 @@ Madrid Metro Map: L5 Line.
 
 =back
 
-=head2 MAP DATA
+=head1 MAP DATA
 
 The map data for the line B<L5> collected from L<this page|https://en.wikipedia.org/wiki/Line_5_(Madrid_Metro)>.
 
